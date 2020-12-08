@@ -1,4 +1,7 @@
 const sayName = (name) => {
-    console.log(name);
+    return name;
 }
-sayName();
+const sayHi = () => {
+    console.log(`hi!!! ${sayName('Nezam')}`);
+}
+sayHi();
